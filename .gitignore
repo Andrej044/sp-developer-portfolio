@@ -5,6 +5,7 @@
 *.sketch
 *.fig
 *.zip
+*.gitignore
 single-page-developer-portfolio-figma/
 # Avoid accidental XD upload if you convert the design file
 ###############################################
