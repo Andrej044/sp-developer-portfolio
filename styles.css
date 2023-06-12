@@ -64,3 +64,30 @@ ul{
 p{
   color: var(--light-grey);
 }
+
+.nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.8rem 0;
+}
+.nav p {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.nav ul{
+  width: 154px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.nav-ico{
+  max-height: 2rem;
+}
+
+/* header */
+
+
+/* end */
