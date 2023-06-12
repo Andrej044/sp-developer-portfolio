@@ -88,7 +88,7 @@ p{
 }
 
 
-
+/* visually hidden pattern. Hide block from users but not from screen reader*/
 .visually-hidden{
   position: absolute;
   width: 1px;
@@ -102,6 +102,7 @@ p{
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 /* main*/
 
 
