@@ -47,10 +47,20 @@ html{
   font-size: 10px;
   scroll-behavior: smooth;
 }
+
+/* Mobile first */
 body{
+  background-color: var(--black);
   font-family: SpaceGrotesk, sans-serif;
+  font-size: 1.6rem;
+  color:var(--white);
 }
 
 ul{
   list-style: none;
+  display: flex;
+}
+
+p{
+  color: var(--light-grey);
 }
