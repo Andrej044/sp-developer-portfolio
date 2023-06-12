@@ -3,7 +3,54 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+:root{
+  --black:rgb(21,21,21);
+  --green:rgb(78,225,160);
+  --dark-grey:rgb(36,36,36);
+  --light-gray:rgb(217,217,217);
+  --white:rgb(255,255,255);
+}
+
+/* Set up SpaceGrotesk for old browsers, only regular + bold */
+@supports not (font-variation-settings: normal) {
+  @font-face {
+    font-family: SpaceGrotesk;
+    src: url('/fonts/static/SpaceGrotesk-Medium.ttf');
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: SpaceGrotesk;
+    src: url('/fonts/static/SpaceGrotesk-Bold.ttf');
+    font-weight: bold;
+  }
+
+  body {
+    font-family: SpaceGrotesk;
+  }
+}
+
+/* Set up SpaceGrotesk for modern browsers, all weights */
+@supports (font-variation-settings: normal) {
+  @font-face {
+    font-family: 'SpaceGrotesk';
+    src: url('/fonts/SpaceGrotesk-VariableFont_wght.ttf') format('ttf supports variations'),
+         url('/fonts/SpaceGrotesk-VariableFont_wght.ttf') format('ttf-variations');
+    font-weight: 100 1000;
+    font-stretch: 25% 151%;
+  }
+
+}
+
 html{
   font-size: 10px;
   scroll-behavior: smooth;
+}
+body{
+  font-family: SpaceGrotesk, sans-serif;
+}
+
+ul{
+  list-style: none;
 }
