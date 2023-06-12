@@ -65,6 +65,7 @@ p{
   color: var(--light-grey);
 }
 
+/* navigation styles */
 .nav{
   display: flex;
   flex-direction: column;
@@ -88,6 +89,28 @@ p{
 }
 
 
+/* button styles */
+.btn{
+  display: inline-block;
+  position: relative;
+  height: 30px;
+  color: var(--white);
+  text-transform: uppercase;
+  line-height: 2.6rem;
+  font-weight: 700;
+  letter-spacing: 0.22rem;
+  text-decoration: none;
+}
+.btn::before{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--green);
+}
 /* visually hidden pattern. Hide block from users but not from screen reader*/
 .visually-hidden{
   position: absolute;
