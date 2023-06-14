@@ -196,6 +196,7 @@ input,button{
   .skills__item p {
     text-align: center;
     line-height: 2.6rem;
+    color: var(--light-gray);
   }
   .skills__item:not(.skills__item:first-child){
     margin-top: 2.4rem;
