@@ -43,7 +43,13 @@ ul{
 }
 
 p{
+  font-size: 1.6rem;
+  line-height: 2.4rem;
   color: var(--white);
+}
+input,button{
+  background: none;
+  border: none;
 }
 
 /* navigation styles */
@@ -74,7 +80,7 @@ p{
 .btn{
   display: inline-block;
   position: relative;
-  height: 30px;
+  height: 3.8rem;
   color: var(--white);
   text-transform: uppercase;
   font-size: 1.6rem;
@@ -246,10 +252,65 @@ p{
     margin-top: 2rem;
   }
   /* end */
+/* main end */
 
+/* footer */
+.footer{
+  background:var(--dark-gray) ;
+  padding: 6rem 1.6rem;
+}
   /* section contact */
   .contact{
-    background:var(--dark-gray) ;
+    padding-bottom: 8.7rem;
+    border-bottom: 1px solid var(--white);
   }
-
+  .contact-title{
+    text-align: center;
+  }
+  .contact p {
+    margin-top: 2rem;
+    color: var(--light-gray);
+    text-align: center;
+  }
+  .contact-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+  .form__input{
+    display: block;
+    height: 43px;
+    background: transparent;
+    padding-left: 2.4rem;
+    font-family: SpaceGrotesk;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color:var(--white);
+    border: none;
+    border-bottom: 1px solid var(--white);
+  }
+  .form__input:not(.form__input:first-child){
+    margin-top: 3.2rem;
+  }
+  .form__input:focus-visible{
+    outline: none;
+  }
+  .form__input::placeholder{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-family: SpaceGrotesk;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 2.4rem;
+    text-transform: uppercase;
+  }
+  .input-message{
+    height: 10.7rem;
+  }
+  .form__btn-submit{
+    align-self: flex-end;
+    margin-top: 3.2rem;
+  }
   /* end */
