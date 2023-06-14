@@ -93,6 +93,7 @@ p{
   left: 0;
   background-color: var(--green);
 }
+
 /* visually hidden pattern. Hide block from users but not from screen reader*/
 .visually-hidden{
   position: absolute;
@@ -106,6 +107,12 @@ p{
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+/* title settings */
+.title{
+  text-transform: capitalize;
+  line-height: 4rem;
+  font-size: 4rem;
 }
 
 /*section intro*/
@@ -191,5 +198,44 @@ p{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.projects__list{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin-top: 4rem;
+}
+.projects__item{
+  width: 100%;
+}
+.projects__item:not(.projects__item:first-child){
+  margin-top: 4rem;
+}
+.projects__preview-img{
+  max-width: 100%;
+}
+.projects__describe{
+  margin-top: 2rem;
+}
+.describe__title{
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  text-transform: uppercase;
+}
+.projects__tech-list{
+  flex-wrap: wrap;
+  margin-top: 0.7rem;
+  gap: 1.8rem;
+}
+.describe__item{
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  text-transform: uppercase;
+  color: var(--light-gray);
+}
+
+.describe__links-wrapper{
+  display: flex;
+  gap: 3rem;
+  margin-top: 2rem;
 }
 /* end */
