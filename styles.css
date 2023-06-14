@@ -194,6 +194,7 @@ p{
 /* section Projects */
 .projects{
   margin-top: 6rem;
+  padding-bottom: 8rem;
 }
 .projects__wrapper{
   display: flex;
