@@ -182,3 +182,14 @@ p{
   margin-top: 2.4rem;
 }
 /* end */
+
+/* section Projects */
+.projects{
+  margin-top: 6rem;
+}
+.projects__wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* end */
