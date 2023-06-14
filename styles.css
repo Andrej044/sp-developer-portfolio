@@ -31,6 +31,9 @@ html{
 
 /* Mobile first */
 body{
+  background: url('/images/pattern-rings.svg') no-repeat left -342px top 124px, 
+              url('/images/pattern-circle.svg') no-repeat left 311px top 254px,
+              url('/images/pattern-rings.svg') no-repeat left 189px top 1303px;
   background-color: var(--black);
   font-family: SpaceGrotesk, sans-serif;
   font-size: 1.6rem;
