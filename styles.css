@@ -259,7 +259,8 @@ input,button{
 
 /* footer */
 .footer{
-  background:var(--dark-gray) ;
+  background:url('/images/pattern-rings.svg') no-repeat left -342px top 60%,
+            var(--dark-gray) ;
   padding: 6rem 1.6rem;
 }
   /* section contact */
