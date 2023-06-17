@@ -326,6 +326,30 @@ h3{
   .form__input:focus{
     border-color:  var(--green);
   }
+
+  .input-email{
+    display: flex;
+    flex-direction: column;
+  }
+  .form__input[type="email"]:invalid{
+    border-color:  var(--alert);
+  }
+  .email-alert{
+  width: 100%;
+  text-align: right;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  letter-spacing: -0.166667px;
+  color: var(--alert);
+  }
+  .email-alert.hidden{
+    display: none;
+  }
+  .form__input[type="email"]:invalid + .email-alert.hidden{
+    display: block;
+  }
+
+
   .input-message{
     height: 107px;
   }
