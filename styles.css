@@ -201,10 +201,7 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     transform: translateX(-50%);
     z-index: 1;
   }
-  .intro__img img{
-    max-width: 100%;
-    height: auto;
-  }
+
   /* end */
 
   /* section skills */
