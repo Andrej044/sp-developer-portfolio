@@ -288,8 +288,7 @@ input,button{
   .form__input-wrapper{
     width: 100%;
     height: 4.3rem;
-    padding-left: 2.4rem;
-    border-bottom: 1px solid var(--white);
+
   }
   .form__input{
     width: 100%;
@@ -297,9 +296,12 @@ input,button{
     font-family: SpaceGrotesk;
     font-size: 1.6rem;
     line-height: 2.4rem;
-    text-transform: uppercase;
+    padding-left: 2.4rem;
+    padding-bottom: 1.6rem;
     color:var(--white);
     border: none;
+    border-bottom: 1px solid var(--white);
+    text-transform: uppercase;
   }
   .form__input-wrapper:not(.form__input-wrapper:first-child){
     margin-top: 3.2rem;
@@ -315,7 +317,7 @@ input,button{
     text-transform: uppercase;
   }
   .form__input:focus{
-    border-bottom: 1px solid red ;
+    border-color:  var(--green);
   }
   .input-message{
     height: 107px;
