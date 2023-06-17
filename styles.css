@@ -55,6 +55,12 @@ input,button{
   background: none;
   border: none;
 }
+h2{
+  letter-spacing: -0.25rem;
+}
+h3{
+  letter-spacing: -0.15rem;
+}
 
 /* navigation styles */
 .nav{
