@@ -70,11 +70,13 @@ a:hover, a:active, a:focus, button:hover, button:focus {
 }
 /* navigation styles */
 .nav{
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 1.8rem 0;
+  z-index: 99;
 }
 .nav p {
   font-size: 2.4rem;
