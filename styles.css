@@ -55,6 +55,9 @@ input,button{
   background: none;
   border: none;
 }
+button{
+  cursor: pointer;
+}
 h2{
   letter-spacing: -0.25rem;
 }
@@ -62,6 +65,9 @@ h3{
   letter-spacing: -0.15rem;
 }
 
+a:hover, a:active, a:focus, button:hover, button:focus {
+  color:var(--green)
+}
 /* navigation styles */
 .nav{
   display: flex;
@@ -84,6 +90,7 @@ h3{
 .nav-ico{
   max-height: 2rem;
 }
+
 
 
 /* button styles */
@@ -130,6 +137,7 @@ h3{
   line-height: 4rem;
   font-size: 4rem;
 }
+
 
 /* main */
 .main{
@@ -185,6 +193,7 @@ h3{
     background-position: center;
     background-size: cover;
     transform: translateX(-50%);
+    z-index: 1;
   }
   .intro__img img{
     max-width: 100%;
