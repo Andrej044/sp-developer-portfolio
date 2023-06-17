@@ -329,6 +329,7 @@ h3{
 
   .input-email{
     display: flex;
+    position: relative;
     flex-direction: column;
   }
   .form__input[type="email"]:invalid{
@@ -344,6 +345,14 @@ h3{
   }
   .email-alert.hidden{
     display: none;
+  }
+  .email-alert.hidden::before{
+    content: url("/images/alert.svg");
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 2.4rem;
+    height: 2.4rem;
   }
   .form__input[type="email"]:invalid + .email-alert.hidden{
     display: block;
