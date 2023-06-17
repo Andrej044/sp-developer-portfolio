@@ -166,9 +166,15 @@
       <p>I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
       <form action="POST">
         <div class="contact-form">
-          <input class="form__input" id="name" name="name" type="text" placeholder="name" required>
-          <input class="form__input" id="email" name="email" type="email" placeholder="email" required>
-          <textarea class="form__input input-message" id="message" name="message" placeholder="message" spellcheck="false"></textarea>
+          <div class="form__input-wrapper">  
+            <input class="form__input" id="name" name="name" type="text" placeholder="name" required>
+          </div>
+          <div class="form__input-wrapper">
+            <input class="form__input" id="email" name="email" type="email" placeholder="email" required>
+          </div>
+          <div class="form__input-wrapper input-message">
+            <textarea class="form__input" id="message" name="message" placeholder="message" spellcheck="false"></textarea>
+          </div>
           <button id="submit" class="btn form__btn-submit" type="submit">
             send message
           </button>
