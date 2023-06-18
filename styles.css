@@ -428,6 +428,9 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     margin-top: 0;
     align-items: center;
   }
+  /* end */
+
+  /* main */
   .main{
     padding: 0 3.2rem 2rem 3.2rem;
   }
@@ -550,5 +553,9 @@ a:hover, a:active, a:focus, button:hover, button:focus {
 }
 
 @media screen and (min-width:1440px) {
-  
+  /* navigation styles */
+  .nav{
+    padding: 0 16.5rem;
+  }
+  /* end */
 }
