@@ -82,14 +82,22 @@ a:hover, a:active, a:focus, button:hover, button:focus {
 }
 .nav p {
   font-size: 2.4rem;
-  font-weight: 700;
+  line-height: 3.2rem;
+  font-weight: bold;
+  letter-spacing: -0.33px;
 }
-.nav ul{
+.nav__list{
   width: 154px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 2rem;
+}
+
+.nav__link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .nav__link .social-ico > path{
   transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -401,3 +409,38 @@ a:hover, a:active, a:focus, button:hover, button:focus {
 /*footer end */
 
 /* media queries */
+@media (min-width: 768px) {
+  /* navigation styles */
+  .nav{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 3rem;
+  }
+  .nav p {
+    font-size: 3.2rem;
+    letter-spacing: -0.44px;
+  }
+  .nav__list{
+    margin-top: 0;
+    align-items: center;
+  }
+  .main{
+    padding-top: 0;
+  }
+    /*section intro*/
+    .intro{
+      flex-direction: row;
+    }
+    .intro__text{
+      order: 1;
+    }
+    .intro__img{
+      position: absolute;
+      top:0;
+      right: 0;
+      max-width: 322px;
+      height: 600px;
+      background: url("/images/image-profile-tablet.webp") no-repeat;
+      background-size: cover;
+    }
+}
