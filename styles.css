@@ -413,7 +413,7 @@ a:hover, a:active, a:focus, button:hover, button:focus {
 /*footer end */
 
 /* media queries */
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   /* navigation styles */
   .nav{
     flex-direction: row;
@@ -547,4 +547,8 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     }
     /* end */
   /*footer end */
+}
+
+@media screen and (min-width:1440px) {
+  
 }
