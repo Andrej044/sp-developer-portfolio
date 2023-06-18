@@ -34,7 +34,7 @@ html{
 body{
   background: url('/images/pattern-rings.svg') no-repeat left -342px top 124px, 
               url('/images/pattern-circle.svg') no-repeat right calc(0px - 64.5px)  top 254px,
-              url('/images/pattern-rings.svg') no-repeat right calc(0px - 341px) top 1315px;
+              url('/images/pattern-rings.svg') no-repeat right calc(0px - 341px) top 1282px;
   background-color: var(--black);
   font-family: SpaceGrotesk, sans-serif;
   font-size: 1.6rem;
@@ -144,7 +144,14 @@ a:hover, a:active, a:focus, button:hover, button:focus {
   font-size: 4rem;
 }
 
-
+/* header */
+.header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+/* end */
 /* main */
 .main{
   width: 100%;
@@ -164,8 +171,8 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 33.1rem;
-
+    margin-top: 3.8rem;
+    order:2;
   }
   .intro__text p:first-child{
     font-size: 4rem;
@@ -190,15 +197,12 @@ a:hover, a:active, a:focus, button:hover, button:focus {
   }
 
   .intro__img{
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 174px;
-    height: 383px;
+    order: 1;
+    width: 100%;
+    height: 367px;
     background: url("/images/image-profile-mobile.webp") no-repeat;
     background-position: center;
-    background-size: cover;
-    transform: translateX(-50%);
+    background-size: contain;
     z-index: 1;
   }
 
