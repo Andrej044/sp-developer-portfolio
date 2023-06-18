@@ -316,7 +316,7 @@ a:hover, a:active, a:focus, button:hover, button:focus {
   .contact-title{
     text-align: center;
   }
-  .contact p {
+  .contact-wrapper p {
     margin-top: 2rem;
     color: var(--light-gray);
     text-align: center;
@@ -527,4 +527,24 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     .describe__title{
       letter-spacing: 0;
     }
+    /* end */
+  /* main end */
+
+  /* footer */
+    /* section contact */
+    .contact-title{
+      font-size: 7.2rem;
+      line-height: 7.2rem;
+      letter-spacing: -0.2rem;
+    }
+    .contact-wrapper{
+      max-width: 445px;
+      margin: 0 auto;
+    }
+    .contact-wrapper p{
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+    }
+    /* end */
+  /*footer end */
 }
