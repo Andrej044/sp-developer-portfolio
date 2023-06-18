@@ -2,6 +2,7 @@
   padding:0;
   margin: 0;
   box-sizing: border-box;
+  transition: 0.5s linear;
 }
 
 :root{
@@ -215,6 +216,7 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     background-position: center;
     background-size: contain;
     z-index: 1;
+    transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
   }
 
   /* end */
@@ -232,20 +234,20 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+
+  }
+  .skills__item:not(.skills__item:first-child){
+    margin-top: 2.4rem;
   }
   .skills__item h3{
-    text-align: center;
     font-size: 3.2rem;
     line-height: 4rem;
     font-weight: bold;
   }
   .skills__item p {
-    text-align: center;
     line-height: 2.6rem;
     color: var(--light-gray);
-  }
-  .skills__item:not(.skills__item:first-child){
-    margin-top: 2.4rem;
   }
   /* end */
 
@@ -478,5 +480,31 @@ a:hover, a:active, a:focus, button:hover, button:focus {
       background: url("/images/image-profile-tablet.webp") no-repeat;
       background-size: cover;
       z-index: -1;
+    }
+    /* end */
+
+    /* section skills */
+    .skills{
+      margin-top: 6rem;
+      padding: 0;
+      border-bottom: none;
+    }
+    .skills__list{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: start;
+      text-align: left;
+    }
+    .skills__item:not(.skills__item:first-child), .skills__item:first-child{
+      margin-top: 5.2rem;
+    }
+    .skills__item h3{
+      font-size: 4.8rem;
+      line-height: 5.6rem;
+      letter-spacing: -1.5px;
+    }
+    .skills__item p {
+      font-size: 1.8rem;
+      line-height: 2.8rem;
     }
 }
