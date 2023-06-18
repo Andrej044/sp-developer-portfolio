@@ -429,8 +429,7 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     align-items: center;
   }
   .main{
-    padding: 3.2rem;
-    padding-top: 0;
+    padding: 0 3.2rem 2rem 3.2rem;
   }
     /*section intro*/
     .intro{
@@ -508,4 +507,24 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     }
     /* end */
 
+    /* section Projects */
+    .projects{
+      margin-top: 10rem;
+    }
+    .projects__title{
+      font-size: 7.2rem;
+      line-height: 7.2rem;
+      letter-spacing: -2.04545px;
+    }
+    .projects__list{
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2.4rem;
+      margin: 0;
+    }
+    .projects__item:not(.projects__item:first-child),.projects__item{
+      margin-top: 6rem;
+    }
+    .describe__title{
+      letter-spacing: 0;
+    }
 }
