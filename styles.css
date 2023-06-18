@@ -116,7 +116,7 @@ a:hover, a:active, a:focus, button:hover, button:focus {
   text-transform: uppercase;
   font-size: 1.6rem;
   line-height: 2.6rem;
-  font-weight: 700;
+  font-weight: bold;
   letter-spacing: 0.22rem;
   text-decoration: none;
 }
@@ -186,6 +186,9 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     font-size: 4rem;
     line-height: 4rem;
     font-weight: 700;
+  }
+  .intro__text--br-hidden{
+    display: none;
   }
   .intro__text p{
     line-height: 2.6rem;
@@ -425,14 +428,46 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     align-items: center;
   }
   .main{
+    padding: 3.2rem;
     padding-top: 0;
   }
     /*section intro*/
     .intro{
-      flex-direction: row;
+      margin-top: 151px;
+      align-items: flex-start;
     }
     .intro__text{
-      order: 1;
+      min-width: 443px;
+      max-width: 70%;
+      align-items: flex-start;
+      margin-top: 0;
+    }
+
+    .intro__text p:first-child{
+      font-size: 7.2rem;
+      line-height: 7.2rem;
+      letter-spacing: -2.05px;
+      text-align: left;
+    }
+  
+    .intro__text--br-hidden{
+      display: block;
+    }
+
+    .intro__text p{
+      max-width: 450px;
+      line-height: 2.8rem;
+      font-size: 1.8rem;
+      text-align: left;
+    }
+
+    .intro__text p:not(p:first-child){
+      margin-top: 6.4rem;
+  
+    }
+    .intro__link{
+      margin-top: 4.6rem;
+      text-align: left;
     }
     .intro__img{
       position: absolute;
@@ -442,5 +477,6 @@ a:hover, a:active, a:focus, button:hover, button:focus {
       height: 600px;
       background: url("/images/image-profile-tablet.webp") no-repeat;
       background-size: cover;
+      z-index: -1;
     }
 }
