@@ -216,7 +216,6 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     background-position: center;
     background-size: contain;
     z-index: 1;
-    transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
   }
 
   /* end */
@@ -507,4 +506,6 @@ a:hover, a:active, a:focus, button:hover, button:focus {
       font-size: 1.8rem;
       line-height: 2.8rem;
     }
+    /* end */
+
 }
