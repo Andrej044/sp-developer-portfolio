@@ -436,11 +436,11 @@ a:hover, a:active, a:focus, button:hover, button:focus {
   }
     /*section intro*/
     .intro{
-      margin-top: 151px;
+      margin-top: 15.1rem;
       align-items: flex-start;
     }
     .intro__text{
-      min-width: 443px;
+      min-width: 445px;
       max-width: 70%;
       align-items: flex-start;
       margin-top: 0;
@@ -466,7 +466,6 @@ a:hover, a:active, a:focus, button:hover, button:focus {
 
     .intro__text p:not(p:first-child){
       margin-top: 6.4rem;
-  
     }
     .intro__link{
       margin-top: 4.6rem;
@@ -558,4 +557,53 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     padding: 0 16.5rem;
   }
   /* end */
+
+  /* main */
+  .main{
+    padding: 0 16.5rem 2rem 16.5rem;
+  }
+    /*section intro*/
+    .intro{
+      margin-top: 19.8rem;
+    }  
+    .intro__text{
+      min-width: 706px;
+    }
+    .intro__text p:first-child{
+      max-width: 706px;
+      font-size: 8.8rem;
+      line-height: 8.8rem;
+      letter-spacing: -2.5px;
+      text-align: left;
+    }
+
+    .intro__text--br-hidden{
+      display:none;
+    }
+    .text--underline{
+      border-width: 6px;
+    }
+
+    .intro__text p{
+      max-width: 445px;
+      line-height: 2.8rem;
+      font-size: 1.8rem;
+      text-align: left;
+    }
+    .intro__text p:not(p:first-child){
+      margin-top: 4.9rem;
+    }
+    .intro__link{
+      margin-top: 6.6rem;
+    }
+    .intro__img{
+      position: absolute;
+      right: 16.5rem;
+      max-width: 445px;
+      height: 720px;
+      background: url("/images/image-profile-desktop.webp")  no-repeat;
+      background-size: contain;
+    }
+    /* end */
+    
 }
