@@ -629,13 +629,38 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     /* section Projects */
     .projects{
       margin-top: 14rem;
+      padding-bottom: 11.9rem;
+
     }
-    
+    .projects__list{
+      gap: 3rem;
+    }
     .projects__item{
       position: relative;
+      max-width: 540px;
+    }
+    .projects__item:hover .describe__links-wrapper{
+      display: flex;
     }
     .projects__item:not(.projects__item:first-child),.projects__item{
       margin-top: 8rem;
     }
-
+    .projects__preview-img{
+      max-height: 400px;
+    }
+    .describe__links-wrapper{
+      position: absolute;
+      top:0;
+      left: 0;
+      display: none;
+      align-items: center;
+      justify-content:  center;
+      width: 100%;
+      height: calc(100% - 18%);
+      flex-direction: column;
+      margin: 0;
+      background-color: rgba(0,0,0,0.75);
+      transition:5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+     /* end */
 }
