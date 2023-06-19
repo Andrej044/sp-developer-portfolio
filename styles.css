@@ -557,6 +557,13 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     padding: 0 16.5rem;
   }
   /* end */
+ 
+  /* title settings */
+  .title{
+    font-size: 8.8rem;
+    line-height: 8.8rem;
+    letter-spacing: -2.5px;
+  }
 
   /* main */
   .main{
@@ -618,5 +625,10 @@ a:hover, a:active, a:focus, button:hover, button:focus {
       margin-top: 1.4rem;
     }
     /* end */
+    
+    /* section Projects */
+    .projects{
+      margin-top: 14rem;
+    }
 
 }
