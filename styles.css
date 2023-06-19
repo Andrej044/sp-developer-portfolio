@@ -304,8 +304,7 @@ a:hover, a:active, a:focus, button:hover, button:focus {
 
 /* footer */
 .footer{
-  background:url('/images/pattern-rings.svg') no-repeat left -342px top 60%,
-            var(--dark-gray) ;
+  background:url('/images/pattern-rings.svg') no-repeat left -342px top 60%, var(--dark-gray) ;
   padding: 6rem 1.6rem;
 }
   /* section contact */
@@ -316,7 +315,7 @@ a:hover, a:active, a:focus, button:hover, button:focus {
   .contact-title{
     text-align: center;
   }
-  .contact-wrapper p {
+  .contact p {
     margin-top: 2rem;
     color: var(--light-gray);
     text-align: center;
@@ -536,6 +535,10 @@ a:hover, a:active, a:focus, button:hover, button:focus {
 
   /* footer */
     /* section contact */
+    .contact{
+      max-width: 445px;
+      margin: 0 auto;
+    }
     .contact-title{
       letter-spacing: -0.2rem;
     }
@@ -543,7 +546,7 @@ a:hover, a:active, a:focus, button:hover, button:focus {
       max-width: 445px;
       margin: 0 auto;
     }
-    .contact-wrapper p{
+    .contact p{
       font-size: 1.8rem;
       line-height: 2.8rem;
     }
@@ -663,4 +666,47 @@ a:hover, a:active, a:focus, button:hover, button:focus {
       transition:5s cubic-bezier(0.075, 0.82, 0.165, 1);
     }
      /* end */
+  /* main end */
+
+  /* footer */
+  .footer{
+    padding: 8.4rem 16.5rem 9.2rem;
+    }
+    /* section contact */
+    .contact{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, min-content);
+      max-width: 100%;
+    }
+    .contact-title{
+      letter-spacing: -0.25rem;
+      justify-self: start;
+    }  
+    .contact p{
+      max-width: 445px;
+      grid-row: 2/4;
+      order: 2;
+      margin-top: 3.6rem;
+      text-align: left;
+    }
+    .contact-wrapper{
+      width: 445px;
+      order: 1;
+      grid-column: 2/-1;
+      grid-row: span 2;
+      justify-self: end;
+      margin: 0;
+    }
+    .contact-form{
+      margin-top: 0;
+    }
+    /* end */
+    /* footer navigation */
+    .footer-nav{
+      margin-top: 4.7rem;
+      padding: 0;
+    }
+    /* end */
+  /*footer end */
 }
