@@ -606,4 +606,17 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     }
     /* end */
     
+    /* section skills */
+    .skills{
+      margin-top: 21.9rem;
+    }    
+    .skills__list{
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .skills__item p {
+      font-size: 1.8rem;
+      margin-top: 1.4rem;
+    }
+    /* end */
+
 }
