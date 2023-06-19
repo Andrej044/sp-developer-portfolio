@@ -429,7 +429,11 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     align-items: center;
   }
   /* end */
-
+ /* title settings */
+ .title{
+  font-size: 7.2rem;
+  line-height: 7.2rem;
+  }
   /* main */
   .main{
     padding: 0 3.2rem 2rem 3.2rem;
@@ -514,8 +518,6 @@ a:hover, a:active, a:focus, button:hover, button:focus {
       margin-top: 10rem;
     }
     .projects__title{
-      font-size: 7.2rem;
-      line-height: 7.2rem;
       letter-spacing: -2.04545px;
     }
     .projects__list{
@@ -535,8 +537,6 @@ a:hover, a:active, a:focus, button:hover, button:focus {
   /* footer */
     /* section contact */
     .contact-title{
-      font-size: 7.2rem;
-      line-height: 7.2rem;
       letter-spacing: -0.2rem;
     }
     .contact-wrapper{
@@ -629,6 +629,13 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     /* section Projects */
     .projects{
       margin-top: 14rem;
+    }
+    
+    .projects__item{
+      position: relative;
+    }
+    .projects__item:not(.projects__item:first-child),.projects__item{
+      margin-top: 8rem;
     }
 
 }
