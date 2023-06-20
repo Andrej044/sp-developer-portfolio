@@ -655,6 +655,14 @@ a:hover, a:active, a:focus, button:hover, button:focus {
       background: url("/images/image-profile-desktop.webp")  no-repeat;
       background-size: contain;
     }
+    .intro .decor__rings {
+      top:14vh;
+      left:-100px;
+    }
+    .intro .decor__circle {
+      top:55.5vh;
+      left:calc(100vw - 674.5px - 13px);
+    }
     /* end */
     
     /* section skills */
