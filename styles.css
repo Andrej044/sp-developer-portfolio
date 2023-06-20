@@ -33,9 +33,9 @@ html{
 
 /* Mobile first */
 body{
-  background: url('/images/pattern-rings.svg') no-repeat left -342px top 124px, 
+  /* background: url('/images/pattern-rings.svg') no-repeat left -342px top 124px, 
               url('/images/pattern-circle.svg') no-repeat right calc(0px - 64.5px)  top 254px,
-              url('/images/pattern-rings.svg') no-repeat right calc(0px - 341px) top 1282px;
+              url('/images/pattern-rings.svg') no-repeat right calc(0px - 341px) top 1282px; */
   background-color: var(--black);
   font-family: SpaceGrotesk, sans-serif;
   font-size: 1.6rem;
@@ -146,6 +146,14 @@ a:hover, a:active, a:focus, button:hover, button:focus {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+/* decoration elements */
+.decor{
+  position: absolute;
+  top:0;
+  left:0;
+}
+
 /* title settings */
 .title{
   text-transform: capitalize;
