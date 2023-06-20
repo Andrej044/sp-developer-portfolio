@@ -264,6 +264,12 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     line-height: 2.6rem;
     color: var(--light-gray);
   }
+  
+  .skills .decor__rings {
+    top:140.7vh;
+    left:calc(100vw - 189px);
+  }
+
   /* end */
 
   /* section Projects */
