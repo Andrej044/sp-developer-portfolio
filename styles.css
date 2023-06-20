@@ -326,7 +326,8 @@ a:hover, a:active, a:focus, button:hover, button:focus {
 
 /* footer */
 .footer{
-  background:url('/images/pattern-rings.svg') no-repeat left -342px top 60%, var(--dark-gray) ;
+  position: relative;
+  background: var(--dark-gray) ;
   padding: 6rem 1.6rem;
 }
   /* section contact */
@@ -341,6 +342,10 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     margin-top: 2rem;
     color: var(--light-gray);
     text-align: center;
+  }
+  .contact-wrapper .decor__rings{
+    top:52%;
+    left:-343px;
   }
   .contact-form{
     display: flex;
