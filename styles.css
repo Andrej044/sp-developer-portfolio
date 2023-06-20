@@ -40,6 +40,7 @@ body{
   font-family: SpaceGrotesk, sans-serif;
   font-size: 1.6rem;
   color:var(--white);
+  overflow-x: hidden;
 }
 
 ul{
