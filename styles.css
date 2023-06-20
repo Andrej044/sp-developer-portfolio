@@ -33,9 +33,6 @@ html{
 
 /* Mobile first */
 body{
-  /* background: url('/images/pattern-rings.svg') no-repeat left -342px top 124px, 
-              url('/images/pattern-circle.svg') no-repeat right calc(0px - 64.5px)  top 254px,
-              url('/images/pattern-rings.svg') no-repeat right calc(0px - 341px) top 1282px; */
   background-color: var(--black);
   font-family: SpaceGrotesk, sans-serif;
   font-size: 1.6rem;
@@ -511,6 +508,14 @@ a:hover, a:active, a:focus, button:hover, button:focus {
       background: url("/images/image-profile-tablet.webp") no-repeat;
       background-size: cover;
       z-index: -1;
+    }
+    .intro .decor__rings {
+      top:9vh;
+      left:-265px;
+    }
+    .intro .decor__circle {
+      top:50.5vh;
+      left:calc(100vw - 75px);
     }
     /* end */
 
