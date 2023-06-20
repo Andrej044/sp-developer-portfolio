@@ -543,6 +543,10 @@ a:hover, a:active, a:focus, button:hover, button:focus {
       font-size: 1.8rem;
       line-height: 2.8rem;
     }
+    .skills .decor__rings {
+      top:107.5vh;
+      left:calc(100vw - 198px);
+    }
     /* end */
 
     /* section Projects */
