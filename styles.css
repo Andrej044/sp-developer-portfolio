@@ -226,6 +226,14 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     z-index: 1;
   }
 
+  .intro .decor__rings {
+    top:14vh;
+    left:-342px;
+  }
+  .intro .decor__circle {
+    top:26.8vh;
+    left:calc(100vw - 75px);
+  }
   /* end */
 
   /* section skills */
