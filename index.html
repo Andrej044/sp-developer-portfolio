@@ -205,13 +205,13 @@
           <svg class="pattern-rings" xmlns="http://www.w3.org/2000/svg" width="530" height="129"><g fill="none" fill-rule="evenodd" stroke="#FFF" opacity=".25"><ellipse cx="265" cy="40" rx="264.5" ry="39.5"/><ellipse cx="265" cy="52" rx="264.5" ry="39.5"/><ellipse cx="265" cy="65" rx="264.5" ry="39.5"/><ellipse cx="265" cy="77" rx="264.5" ry="39.5"/><ellipse cx="265" cy="89" rx="264.5" ry="39.5"/></g>
           </svg>
         </span>
-        <form action="POST">
+        <form id="myForm">
         <div class="contact-form">
           <div class="form__input-wrapper">  
-            <input class="form__input" id="name" name="name" type="text" placeholder="name" required>
+            <input class="form__input" id="name" name="name" type="text" placeholder="name" autocomplete="name" required>
           </div>
           <div class="form__input-wrapper input-email">
-            <input class="form__input" id="email" name="email" type="email" placeholder="email" required>
+            <input class="form__input" id="email" name="email" type="email" placeholder="email" autocomplete="off" >
             <span class="email-alert hidden">Sorry, invalid format here</span>
           </div>
           <div class="form__input-wrapper input-message">
