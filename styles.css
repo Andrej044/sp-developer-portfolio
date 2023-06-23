@@ -15,13 +15,13 @@
 
   @font-face {
     font-family: SpaceGrotesk;
-    src: url('/fonts/static/SpaceGrotesk-Medium.ttf');
+    src: url('fonts/static/SpaceGrotesk-Medium.ttf');
     font-weight: normal;
   }
 
   @font-face {
     font-family: SpaceGrotesk;
-    src: url('/fonts/static/SpaceGrotesk-Bold.ttf');
+    src: url('fonts/static/SpaceGrotesk-Bold.ttf');
     font-weight: bold;
   }
 
