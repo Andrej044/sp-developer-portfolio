@@ -2,7 +2,6 @@
   padding:0;
   margin: 0;
   box-sizing: border-box;
-  transition: 0.5s linear;
 }
 
 :root{
@@ -180,6 +179,8 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: 0.5s linear;
+
   }
   .intro__text{
     display: flex;
@@ -188,6 +189,8 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     justify-content: center;
     margin-top: 3.8rem;
     order:2;
+    transition: 0.5s linear;
+
   }
   .intro__text p:first-child{
     font-size: 4rem;
@@ -279,11 +282,14 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: 0.5s linear;
+
   }
   .projects__list{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin-top: 4rem;
+   transition: 0.5s linear;
   }
   .projects__item{
     width: 100%;
@@ -318,6 +324,7 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     display: flex;
     gap: 3rem;
     margin-top: 2rem;
+    transition: 0.5s linear;
   }
   /* end */
 /* main end */
@@ -349,6 +356,8 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     display: flex;
     flex-direction: column;
     margin-top: 5rem;
+    transition: 0.5s linear;
+
   }
   .form__input-wrapper{
     width: 100%;
@@ -394,12 +403,12 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     border-color:  var(--alert);
   }
   .email-alert{
-  width: 100%;
-  text-align: right;
-  font-size: 1.2rem;
-  line-height: 1.6rem;
-  letter-spacing: -0.166667px;
-  color: var(--alert);
+    width: 100%;
+    text-align: right;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    letter-spacing: -0.166667px;
+    color: var(--alert);
   }
   .email-alert.hidden{
     display: none;
