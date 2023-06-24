@@ -605,6 +605,10 @@ a:hover, a:active, a:focus, button:hover, button:focus {
 }
 
 @media screen and (min-width:1440px) {
+  /* header */
+  .header{
+    margin-top: 2.1rem;
+  }
   /* navigation styles */
   .nav{
     padding: 0 16.5rem;
@@ -651,7 +655,7 @@ a:hover, a:active, a:focus, button:hover, button:focus {
       text-align: left;
     }
     .intro__text p:not(p:first-child){
-      margin-top: 4.9rem;
+      margin-top: 4.3rem;
     }
     .intro__link{
       margin-top: 6.6rem;
@@ -677,6 +681,7 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     /* section skills */
     .skills{
       margin-top: 21.9rem;
+      padding: 2rem 0.5rem
     }    
     .skills__list{
       grid-template-columns: repeat(3, 1fr);
