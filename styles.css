@@ -656,7 +656,7 @@ a:hover, a:active, a:focus, button:hover, button:focus {
       text-align: left;
     }
     .intro__text p:not(p:first-child){
-      margin-top: 4.3rem;
+      margin-top: 3.7rem;
     }
     .intro__link{
       margin-top: 6.6rem;
