@@ -691,8 +691,6 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     }
     .skills__item{
       min-width: 345px;
-      padding-left: 0.6rem;
-
     }
     .skills__list .skills__item:nth-child(n+4){
       margin-top: 5.8rem;
