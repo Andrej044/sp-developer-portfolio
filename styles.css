@@ -211,6 +211,7 @@ a:hover, a:active, a:focus, button:hover, button:focus {
 
   }
   .text--underline{
+    display: inline-block;
     border-bottom: 4px solid var(--green);
   }
   .intro__link{
