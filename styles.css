@@ -762,6 +762,7 @@ a:hover, a:active, a:focus, button:hover, button:focus {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(2, min-content);
       max-width: 100%;
+      padding-bottom: 2.7rem;
     }
     .contact-title{
       letter-spacing: -0.25rem;
