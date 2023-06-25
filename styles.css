@@ -803,7 +803,8 @@ img{
     /* end */
     /* footer navigation */
     .footer-nav{
-      margin-top: 4.7rem;
+      margin-top: 5rem;
+      margin-bottom: 0;
       padding: 0;
     }
     /* end */
