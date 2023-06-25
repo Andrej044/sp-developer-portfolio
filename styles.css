@@ -712,11 +712,12 @@ a:hover, a:active, a:focus, button:hover, button:focus {
 
     }
     .projects__list{
-      gap: 3rem;
+      gap: 0;
+      column-gap: 3rem;
     }
     .projects__item{
       position: relative;
-      max-width: 540px;
+      min-width: 540px;
     }
     .projects__item:hover .describe__links-wrapper{
       display: flex;
@@ -724,8 +725,15 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     .projects__item:not(.projects__item:first-child),.projects__item{
       margin-top: 8rem;
     }
+    .projects__list .projects__item:nth-child(n+3){
+      margin-top: 6.9rem;
+
+    }
     .projects__preview-img{
       max-height: 400px;
+    }
+    .projects__describe{
+      margin-top: 1.6rem;
     }
     .describe__links-wrapper{
       position: absolute;
