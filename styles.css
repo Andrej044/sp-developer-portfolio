@@ -615,6 +615,9 @@ a:hover, a:active, a:focus, button:hover, button:focus {
   .nav{
     padding: 0 16.5rem;
   }
+  .nav__list{
+    width: 192px;
+  }
   /* end */
  
   /* title settings */
@@ -671,8 +674,8 @@ a:hover, a:active, a:focus, button:hover, button:focus {
       background-size: contain;
     }
     .intro .decor__rings {
-      top:14vh;
-      left:-100px;
+      top:14.1vh;
+      left:-99px;
     }
     .intro .decor__circle {
       top:55.5vh;
@@ -700,8 +703,8 @@ a:hover, a:active, a:focus, button:hover, button:focus {
       margin-top: 1.4rem;
     }
     .skills .decor__rings {
-      top:112vh;
-      left:calc(100vw - 279px);
+      top:115vh;
+      left:calc(100vw - 290px);
     }
     /* end */
     
@@ -784,7 +787,7 @@ a:hover, a:active, a:focus, button:hover, button:focus {
       margin: 0;
     }
     .contact-wrapper .decor__rings{
-      top:45%;
+      top:47%;
       left:-205px;
     }
     .contact-form{
