@@ -265,6 +265,7 @@ a:hover, a:active, a:focus, button:hover, button:focus {
   .skills__item p {
     line-height: 2.6rem;
     color: var(--light-gray);
+    text-transform: capitalize;
   }
   
   .skills .decor__rings {
