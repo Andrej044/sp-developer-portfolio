@@ -68,6 +68,9 @@ a,button{
 a:hover, a:active, a:focus, button:hover, button:focus {
   color:var(--green)
 }
+img{
+  display: block;
+}
 /* navigation styles */
 .nav{
   position: relative;
@@ -741,9 +744,7 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     .projects__preview-img{
       max-height: 400px;
     }
-    .projects__describe{
-      margin-top: 1.6rem;
-    }
+
     .describe__links-wrapper{
       position: absolute;
       top:0;
