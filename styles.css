@@ -463,6 +463,9 @@ a:hover, a:active, a:focus, button:hover, button:focus {
     margin-top: 0;
     align-items: center;
   }
+  .header-nav .nav__list{
+    margin-right: 2.9rem;
+  }
   /* end */
  /* title settings */
  .title{
@@ -617,6 +620,9 @@ a:hover, a:active, a:focus, button:hover, button:focus {
   }
   .nav__list{
     width: 192px;
+  }
+  .header-nav .nav__list{
+    margin-right: 2.95rem;
   }
   /* end */
  
