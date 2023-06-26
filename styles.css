@@ -692,8 +692,7 @@ img{
     }
     .intro .decor__circle {
       top:57.8vh;
-      /* left:calc(100vw - 674.5px - 13px); */
-      left:calc(100vw - 674.5px - 13px);
+      left:calc(100vw - 672.5px);
     }
     /* end */
     
@@ -758,11 +757,10 @@ img{
       align-items: center;
       justify-content:  center;
       width: 100%;
-      height: calc(100% - 18%);
+      height: calc(100% - 17.5%);
       flex-direction: column;
       margin: 0;
       background-color: rgba(0,0,0,0.75);
-      transition:5s cubic-bezier(0.075, 0.82, 0.165, 1);
     }
      /* end */
   /* main end */
