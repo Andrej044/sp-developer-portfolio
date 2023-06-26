@@ -691,7 +691,8 @@ img{
       left:-99px;
     }
     .intro .decor__circle {
-      top:57.5vh;
+      top:57.8vh;
+      /* left:calc(100vw - 674.5px - 13px); */
       left:calc(100vw - 674.5px - 13px);
     }
     /* end */
