@@ -32,6 +32,9 @@ html{
 
 /* Mobile first */
 body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background-color: var(--black);
   font-family: SpaceGrotesk, sans-serif;
   font-size: 1.6rem;
@@ -171,6 +174,7 @@ img{
 /* end */
 /* main */
 .main{
+  flex: 1;
   width: 100%;
   padding: 1.6rem;
 }
